@@ -1,0 +1,24 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "this is a webserver that responds with the hello world message",
+  "main": "helloworld.js",
+  "scripts": {
+    "test": "mocha --exit",
+    "start": "node src/helloworld.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenisBallgjini/helloworld.git"
+  },
+  "author": "Denis Ballgjini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DenisBallgjini/helloworld/issues"
+  },
+  "homepage": "https://github.com/DenisBallgjini/helloworld#readme",
+  "devDependencies": {
+    "mocha": "^9.1.3",
+    "supertest": "^6.1.6"
+  }
+}
